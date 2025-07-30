@@ -1,10 +1,13 @@
 import React from 'react'
 
-const SecondComponent = () => {
+const SecondComponent = (props) => {
+  const {name,place,gender,age} = props.User;
   return (
     <div>
-      <h1>SecondComponent</h1>
-      <p>This is a simple React component called SecondComponent.</p>
+     <div>{name}</div>
+     <div>{place}</div>
+     <p>{gender}</p>
+     <p>{age}</p>
     </div>
   );
 }
