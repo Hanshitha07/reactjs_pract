@@ -6,7 +6,9 @@ import ThirdComponent from './react_pract/thirdcomponent'
 import FourthComponent from './react_pract/fourthcomponent'
 import './App.css'; // Assuming you have an App.css file for styles
 import Counter from './useState/ex1' 
-import MyName from './useState/ex2' // Assuming you have a second useState example
+import MyName from './useState/ex2'
+import TernaryOp from './useState/ternaryop' // Assuming you have a second useState example
+import Click_events from './events&listeners/click_events'
 let a ="App"
 
 const Details ={
@@ -19,16 +21,10 @@ const Details ={
 function App() {
   return (
     <div>
-      <FirstComponent name={Details.name} />
-      <SecondComponent User={Details} />
-      <ThirdComponent  gender={Details.gender} />
-      <FourthComponent  age={Details.age} />
       <Counter />
       <MyName />
-      {/* Additional content */}
-      <h1>Welcome to My React {a}</h1>
-      <p>This app demonstrates the use of multiple components.</p>
-      
+      <TernaryOp />
+      <Click_events />
     </div>
   )
 }
