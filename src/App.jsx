@@ -22,10 +22,6 @@ const Details ={
 function App() {
   return (
     <div>
-      <Counter />
-      <MyName />
-      <TernaryOp />
-      <Click_events />
       <Resize />
     </div>
   )

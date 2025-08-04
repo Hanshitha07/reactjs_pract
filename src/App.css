@@ -37,3 +37,46 @@ body {
   min-height: 80vh;
 }
 
+/* Resize.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+}
+
+.resize-container {
+  text-align: center;
+  margin-top: 10vh;
+  padding: 2rem;
+  background-color: #fff;
+  width: 90%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.title {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.dimension {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  transition: color 0.3s;
+}
+
+.green {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.red {
+  color: #dc3545;
+  font-weight: 600;
+}
