@@ -9,6 +9,7 @@ import Counter from './useState/ex1'
 import MyName from './useState/ex2'
 import TernaryOp from './useState/ternaryop' // Assuming you have a second useState example
 import Click_events from './events&listeners/click_events'
+import Resize from './useState/window'
 let a ="App"
 
 const Details ={
@@ -25,6 +26,7 @@ function App() {
       <MyName />
       <TernaryOp />
       <Click_events />
+      <Resize />
     </div>
   )
 }
