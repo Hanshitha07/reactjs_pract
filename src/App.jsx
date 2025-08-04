@@ -10,6 +10,7 @@ import MyName from './useState/ex2'
 import TernaryOp from './useState/ternaryop' // Assuming you have a second useState example
 import Click_events from './events&listeners/click_events'
 import Resize from './useState/window'
+import Formex from './useState/Formex'
 let a ="App"
 
 const Details ={
@@ -22,7 +23,7 @@ const Details ={
 function App() {
   return (
     <div>
-      <Resize />
+     <Formex />
     </div>
   )
 }
